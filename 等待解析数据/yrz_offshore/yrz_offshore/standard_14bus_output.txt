@@ -1,0 +1,345 @@
+Model unknown
+
+  Variables:
+    V : Size=14, Index=AC_bus*time
+        Key     : Lower : Value              : Upper : Fixed : Stale : Domain
+         (1, 1) :  0.94 : 1.0600000102419664 :  1.06 : False : False :  Reals
+         (2, 1) :  0.94 : 1.0556574532504364 :  1.06 : False : False :  Reals
+         (3, 1) :  0.94 :  1.042998980180427 :  1.06 : False : False :  Reals
+         (4, 1) :  0.94 :  1.043860792467036 :  1.06 : False : False :  Reals
+         (5, 1) :  0.94 : 1.0465903323473942 :  1.06 : False : False :  Reals
+         (6, 1) :  0.94 : 1.0391344097613684 :  1.06 : False : False :  Reals
+         (7, 1) :  0.94 : 1.0370917558997643 :  1.06 : False : False :  Reals
+         (8, 1) :  0.94 : 1.0600000103833727 :  1.06 : False : False :  Reals
+         (9, 1) :  0.94 : 1.0216212404351026 :  1.06 : False : False :  Reals
+        (10, 1) :  0.94 : 1.0183402462684996 :  1.06 : False : False :  Reals
+        (11, 1) :  0.94 : 1.0255272816391785 :  1.06 : False : False :  Reals
+        (12, 1) :  0.94 : 1.0259471841954668 :  1.06 : False : False :  Reals
+        (13, 1) :  0.94 : 1.0215428039670296 :  1.06 : False : False :  Reals
+        (14, 1) :  0.94 : 1.0072918821405585 :  1.06 : False : False :  Reals
+    theta : Size=14, Index=AC_bus*time
+        Key     : Lower              : Value                 : Upper             : Fixed : Stale : Domain
+         (1, 1) : -3.141592653589793 :  0.026596307292916167 : 3.141592653589793 : False : False :  Reals
+         (2, 1) : -3.141592653589793 :  0.011922132324703408 : 3.141592653589793 : False : False :  Reals
+         (3, 1) : -3.141592653589793 :  -0.03135667763703732 : 3.141592653589793 : False : False :  Reals
+         (4, 1) : -3.141592653589793 : -0.013065534002537429 : 3.141592653589793 : False : False :  Reals
+         (5, 1) : -3.141592653589793 : -0.004129256259778219 : 3.141592653589793 : False : False :  Reals
+         (6, 1) : -3.141592653589793 :  0.002758625023870887 : 3.141592653589793 : False : False :  Reals
+         (7, 1) : -3.141592653589793 :  0.015165531264333537 : 3.141592653589793 : False : False :  Reals
+         (8, 1) : -3.141592653589793 :   0.08654988865406174 : 3.141592653589793 : False : False :  Reals
+         (9, 1) : -3.141592653589793 : -0.015883671624943564 : 3.141592653589793 : False : False :  Reals
+        (10, 1) : -3.141592653589793 : -0.016884636897368428 : 3.141592653589793 : False : False :  Reals
+        (11, 1) : -3.141592653589793 : -0.009079730676158167 : 3.141592653589793 : False : False :  Reals
+        (12, 1) : -3.141592653589793 :  -0.01112809971973985 : 3.141592653589793 : False : False :  Reals
+        (13, 1) : -3.141592653589793 : -0.012640776994255842 : 3.141592653589793 : False : False :  Reals
+        (14, 1) : -3.141592653589793 :  -0.02876487255129686 : 3.141592653589793 : False : False :  Reals
+    P_gen : Size=5, Index=gen*time
+        Key    : Lower : Value              : Upper : Fixed : Stale : Domain
+        (1, 1) :     0 :  43.36827797135891 : 332.4 : False : False :  Reals
+        (2, 1) :     0 : 43.728068459986495 : 140.0 : False : False :  Reals
+        (3, 1) :     0 :  44.85372726403418 : 100.0 : False : False :  Reals
+        (4, 1) :     0 :  43.94727658457629 : 100.0 : False : False :  Reals
+        (5, 1) :     0 : 44.511738265324716 : 100.0 : False : False :  Reals
+    Q_gen : Size=5, Index=gen*time
+        Key    : Lower : Value              : Upper : Fixed : Stale : Domain
+        (1, 1) :   0.0 : 1.7462854230324794 :  10.0 : False : False :  Reals
+        (2, 1) : -40.0 : 18.218567453321356 :  50.0 : False : False :  Reals
+        (3, 1) :   0.0 : 19.162729557208664 :  40.0 : False : False :  Reals
+        (4, 1) :  -6.0 :  15.64209800512791 :  24.0 : False : False :  Reals
+        (5, 1) :  -6.0 :  15.37466413264318 :  24.0 : False : False :  Reals
+    P_branch : Size=20, Index=branch*time
+        Key     : Lower : Value                 : Upper : Fixed : Stale : Domain
+         (1, 1) : -1000 :   -0.2733112437122587 :  1000 : False : False :  Reals
+         (2, 1) : -1000 :  -0.16068659483556014 :  1000 : False : False :  Reals
+         (3, 1) : -1000 :   -0.2444147988616554 :  1000 : False : False :  Reals
+         (4, 1) : -1000 :  -0.16283650101183192 :  1000 : False : False :  Reals
+         (5, 1) : -1000 :   -0.1090841993685732 :  1000 : False : False :  Reals
+         (6, 1) : -1000 :   0.10440988836051704 :  1000 : False : False :  Reals
+         (7, 1) : -1000 :   0.22994307512073495 :  1000 : False : False :  Reals
+         (8, 1) : -1000 :   0.14701496109889284 :  1000 : False : False :  Reals
+         (9, 1) : -1000 : -0.004310912402639546 :  1000 : False : False :  Reals
+        (10, 1) : -1000 :  0.029978743611890443 :  1000 : False : False :  Reals
+        (11, 1) : -1000 :  -0.07962145385220738 :  1000 : False : False :  Reals
+        (12, 1) : -1000 :   -0.0682012421654046 :  1000 : False : False :  Reals
+        (13, 1) : -1000 :  -0.15713287603449938 :  1000 : False : False :  Reals
+        (14, 1) : -1000 :   0.44852087207023866 :  1000 : False : False :  Reals
+        (15, 1) : -1000 :   -0.3034154649001494 :  1000 : False : False :  Reals
+        (16, 1) : -1000 :  -0.02288887502444161 :  1000 : False : False :  Reals
+        (17, 1) : -1000 :  -0.06027087625546926 :  1000 : False : False :  Reals
+        (18, 1) : -1000 :  0.048999932071720015 :  1000 : False : False :  Reals
+        (19, 1) : -1000 : -0.014677859669423216 :  1000 : False : False :  Reals
+        (20, 1) : -1000 :   -0.0547110447947604 :  1000 : False : False :  Reals
+    Q_branch : Size=20, Index=branch*time
+        Key     : Lower : Value                 : Upper : Fixed : Stale : Domain
+         (1, 1) : -1000 : -0.024554090791743168 :  1000 : False : False :  Reals
+         (2, 1) : -1000 :  0.018934401827647104 :  1000 : False : False :  Reals
+         (3, 1) : -1000 :  0.008936220207687022 :  1000 : False : False :  Reals
+         (4, 1) : -1000 :   0.01516980531336577 :  1000 : False : False :  Reals
+         (5, 1) : -1000 :   0.01769146690961813 :  1000 : False : False :  Reals
+         (6, 1) : -1000 :  0.029428514108280346 :  1000 : False : False :  Reals
+         (7, 1) : -1000 : 0.0002369687437232977 :  1000 : False : False :  Reals
+         (8, 1) : -1000 :   0.03202141056758725 :  1000 : False : False :  Reals
+         (9, 1) : -1000 :  0.041874623459744485 :  1000 : False : False :  Reals
+        (10, 1) : -1000 :  0.030818844226301455 :  1000 : False : False :  Reals
+        (11, 1) : -1000 :   0.03309223086610711 :  1000 : False : False :  Reals
+        (12, 1) : -1000 :  0.020881081500120507 :  1000 : False : False :  Reals
+        (13, 1) : -1000 :   0.06080525520029818 :  1000 : False : False :  Reals
+        (14, 1) : -1000 :  -0.10542597374937597 :  1000 : False : False :  Reals
+        (15, 1) : -1000 :   0.14134998850234354 :  1000 : False : False :  Reals
+        (16, 1) : -1000 :    0.0314289194895055 :  1000 : False : False :  Reals
+        (17, 1) : -1000 :  0.027654060029258423 :  1000 : False : False :  Reals
+        (18, 1) : -1000 :  -0.01841847340726186 :  1000 : False : False :  Reals
+        (19, 1) : -1000 :  0.006560884427750343 :  1000 : False : False :  Reals
+        (20, 1) : -1000 :   0.01653534145458483 :  1000 : False : False :  Reals
+    P_lost : Size=14, Index=AC_bus*time
+        Key     : Lower : Value : Upper : Fixed : Stale : Domain
+         (1, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (2, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (3, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (4, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (5, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (6, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (7, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (8, 1) :     0 :   0.0 :     0 : False : False :  Reals
+         (9, 1) :     0 :   0.0 :     0 : False : False :  Reals
+        (10, 1) :     0 :   0.0 :     0 : False : False :  Reals
+        (11, 1) :     0 :   0.0 :     0 : False : False :  Reals
+        (12, 1) :     0 :   0.0 :     0 : False : False :  Reals
+        (13, 1) :     0 :   0.0 :     0 : False : False :  Reals
+        (14, 1) :     0 :   0.0 :     0 : False : False :  Reals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : 29326.53020374156
+
+  Constraints:
+    balance_bus : Size=0
+        Key : Lower : Body : Upper
+    gen_ramp : Size=0
+        Key : Lower : Body : Upper
+    gen_capacity : Size=5
+        Key : Lower : Body               : Upper
+          1 :  None :   1883.85704697975 : 62206.73999999999
+          2 :  None :  2244.060171292486 :          12431.25
+          3 :  None : 2379.0670535590816 :            6525.0
+          4 :  None :  2176.038349203274 :            5949.0
+          5 :  None : 2217.6751405923574 :            5949.0
+    P_branch_constraints : Size=0
+        Key : Lower : Body : Upper
+    Q_branch_constraints : Size=0
+        Key : Lower : Body : Upper
+    branch_constraints : Size=0
+        Key : Lower : Body : Upper
+    P_balance : Size=14
+        Key : Lower : Body                   : Upper
+          1 :   0.0 : 1.6653345369377348e-15 :   0.0
+          2 :   0.0 : 2.7755575615628914e-16 :   0.0
+          3 :   0.0 : -6.106226635438361e-16 :   0.0
+          4 :   0.0 : 1.8318679906315083e-15 :   0.0
+          5 :   0.0 : -1.609823385706477e-15 :   0.0
+          6 :   0.0 :   1.27675647831893e-15 :   0.0
+          7 :   0.0 :  5.757015730244254e-17 :   0.0
+          8 :   0.0 : 1.1102230246251565e-16 :   0.0
+          9 :   0.0 : -6.938893903907228e-16 :   0.0
+         10 :   0.0 : -6.661338147750939e-16 :   0.0
+         11 :   0.0 : -3.400058012914542e-16 :   0.0
+         12 :   0.0 :  6.938893903907228e-16 :   0.0
+         13 :   0.0 : 4.0245584642661925e-16 :   0.0
+         14 :   0.0 :                    0.0 :   0.0
+    Q_balance : Size=14
+        Key : Lower                 : Body                    : Upper
+          1 :                   0.0 :   7.389922007661198e-15 :                   0.0
+          2 :                   0.0 : -4.9682480351975755e-15 :                   0.0
+          3 :                   0.0 : -1.4918621893400541e-15 :                   0.0
+          4 :  0.034963883580891225 :     0.03496388358088583 :  0.034963883580891225
+          5 : -0.013772234716826825 :   -0.013772234716817515 : -0.013772234716826825
+          6 :                   0.0 : -2.6367796834847468e-15 :                   0.0
+          7 :                   0.0 : -1.8422450336781614e-15 :                   0.0
+          8 :                   0.0 :  1.7763568394002505e-15 :                   0.0
+          9 :  -0.12345809832792623 :    -0.12345809832792388 :  -0.12345809832792623
+         10 :  -0.04731727354849319 :    -0.04731727354849237 :  -0.04731727354849319
+         11 : -0.014900420168067223 :   -0.014900420168067594 : -0.014900420168067223
+         12 : -0.013819195005508626 :   -0.013819195005508272 : -0.013819195005508626
+         13 :  -0.04928296307823989 :   -0.049282963078238984 :  -0.04928296307823989
+         14 :  -0.03864421416234889 :    -0.03864421416235001 :  -0.03864421416234889
+    P_branch_0_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -5.153805160418301e-11 :   0.0
+    Q_branch_0_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -4.558988603298175e-12 :   0.0
+    AC_branch_from_1_to_2_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.07530193931415083 :  2.25
+    P_branch_1_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -2.9389823907877144e-11 :   0.0
+    Q_branch_1_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 3.3792378617558683e-12 :   0.0
+    AC_branch_from_1_to_5_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.026178693332418266 :  0.36
+    P_branch_2_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -4.381958684795961e-11 :   0.0
+    Q_branch_2_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 1.6004905734057218e-12 :   0.0
+    AC_branch_from_2_to_3_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.05981844993418374 :  0.25
+    P_branch_3_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -2.903610685223157e-11 :   0.0
+    Q_branch_3_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 2.694967513039437e-12 :   0.0
+    AC_branch_from_2_to_4_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.026745849055021757 :  0.25
+    P_branch_4_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -1.9412360607873325e-11 :   0.0
+    Q_branch_4_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 3.1613982265366047e-12 :   0.0
+    AC_branch_from_2_to_5_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.01221235055329674 : 0.16000000000000003
+    P_branch_5_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 1.8879342533750787e-11 :   0.0
+    Q_branch_5_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 5.251521439930684e-12 :   0.0
+    AC_branch_from_3_to_4_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.011767462230076887 :  0.09
+    P_branch_6_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 4.116676444176903e-11 :   0.0
+    Q_branch_6_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 1.0895687021887646e-13 :   0.0
+    AC_branch_from_4_to_5_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.052873873950165455 :  0.25
+    P_branch_7_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 2.6592450463880368e-11 :   0.0
+    Q_branch_7_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 5.672705361003949e-12 :   0.0
+    AC_branch_from_4_to_7_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.02263876952164696 : 0.04000000000000001
+    P_branch_8_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -7.579700755933061e-13 :   0.0
+    Q_branch_8_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 7.466048612680964e-12 :   0.0
+    AC_branch_from_4_to_9_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :  None : 0.0017720680556386147 : 0.04000000000000001
+    P_branch_9_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 4.870805148105006e-12 :   0.0
+    Q_branch_9_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 5.595655883094963e-12 :   0.0
+    AC_branch_from_5_to_6_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :  None : 0.0018485262279924965 : 0.04000000000000001
+    P_branch_10_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -1.3988019076371927e-11 :   0.0
+    Q_branch_10_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 5.964652383116942e-12 :   0.0
+    AC_branch_from_6_to_11_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.007434671657234921 : 0.04000000000000001
+    P_branch_11_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -1.2172693408807334e-11 :   0.0
+    Q_branch_11_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 3.7489282511682376e-12 :   0.0
+    AC_branch_from_6_to_12_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.005087428997518837 : 0.16000000000000003
+    P_branch_12_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -2.798761222777557e-11 :   0.0
+    Q_branch_12_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 1.090745549436889e-11 :   0.0
+    AC_branch_from_6_to_13_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.02838801979084674 : 0.16000000000000003
+    P_branch_13_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 8.101874726662572e-11 :   0.0
+    Q_branch_13_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -1.8856319283777623e-11 :   0.0
+    AC_branch_from_7_to_8_at_1 : Size=1
+        Key  : Lower : Body               : Upper
+        None :  None : 0.2122856086236515 :  0.36
+    P_branch_14_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -5.4770521451530385e-11 :   0.0
+    Q_branch_14_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 2.524430664507804e-11 :   0.0
+    AC_branch_from_7_to_9_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.11204076359018646 : 0.16000000000000003
+    P_branch_15_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -4.356504740288258e-12 :   0.0
+    Q_branch_15_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 5.594254226526374e-12 :   0.0
+    AC_branch_from_9_to_10_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :  None : 0.0015116775801623254 : 0.04000000000000001
+    P_branch_16_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -1.0957762475172217e-11 :   0.0
+    Q_branch_16_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 4.918190854574789e-12 :   0.0
+    AC_branch_from_9_to_14_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.004397325560703916 : 0.16000000000000003
+    P_branch_17_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :   0.0 : 8.515993465962879e-12 :   0.0
+    Q_branch_17_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -3.3293159895642077e-12 :   0.0
+    AC_branch_from_10_to_11_at_1 : Size=1
+        Key  : Lower : Body                 : Upper
+        None :  None : 0.002740233505687188 : 0.16000000000000003
+    P_branch_18_at_1 : Size=1
+        Key  : Lower : Body                    : Upper
+        None :   0.0 : -2.5938608899656046e-12 :   0.0
+    Q_branch_18_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 1.1864589172239093e-12 :   0.0
+    AC_branch_from_12_to_13_at_1 : Size=1
+        Key  : Lower : Body                  : Upper
+        None :  None : 0.0002584847689495776 : 0.04000000000000001
+    P_branch_19_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : -9.627097730113832e-12 :   0.0
+    Q_branch_19_at_1 : Size=1
+        Key  : Lower : Body                   : Upper
+        None :   0.0 : 2.9923077904392414e-12 :   0.0
+    AC_branch_from_13_to_14_at_1 : Size=1
+        Key  : Lower : Body                : Upper
+        None :  None : 0.00326671593955399 : 0.04000000000000001
