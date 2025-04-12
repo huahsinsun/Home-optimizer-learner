@@ -21,3 +21,11 @@ if solution:
     print(f"b = {solution[b]}")
 else:
     print("No solution found")
+
+# 输出结果
+print(f"x = {solution[x]}")
+print(f"y = {solution[y]}")
+print(f"b = {solution[b]}")
+
+
+
